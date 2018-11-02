@@ -1,0 +1,104 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="BaseButton">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+    <style name="BaseContentLayoutWithPadding">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:padding">@dimen/spacing_small</item>
+    </style>
+
+    <style name="NormalHeadImageView">
+        <item name="android:background">@null</item>
+        <item name="android:layout_height">@dimen/image_view_height_normal</item>
+        <item name="android:layout_width">@dimen/image_view_width_normal</item>
+    </style>
+
+    <style name="TabLayout">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@color/grey_bg</item>
+    </style>
+
+    <style name="LittleImageView">
+        <item name="android:background">@null</item>
+        <item name="android:layout_height">@dimen/image_view_height_little</item>
+        <item name="android:layout_width">@dimen/image_view_width_little</item>
+    </style>
+
+    <style name="VerticalDivider">
+        <item name="android:background">@color/grey_bg_dark</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">@dimen/divider_width_normal</item>
+    </style>
+
+    <style name="BaseTextView">
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/font_normal</item>
+    </style>
+
+    <style name="ActionButton" parent="BaseButton">
+        <item name="android:background">@drawable/btn_info_window_shape</item>
+        <item name="android:textSize">@dimen/font_normal</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/button_height_short</item>
+    </style>
+
+    <style name="BaseDivider">
+        <item name="android:background">@color/grey_divider</item>
+        <item name="android:layout_height">@dimen/divider_height_normal</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="TinyImageView">
+        <item name="android:background">@null</item>
+        <item name="android:layout_height">@dimen/image_view_height_tiny</item>
+        <item name="android:layout_width">@dimen/image_view_width_tiny</item>
+    </style>
+
+    <style name="DialogItemTextView" parent="BaseTextView">
+        <item name="android:layout_height">@dimen/dialog_item_height_normal</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textColor">@color/blue_text</item>
+        <item name="android:textSize">@dimen/font_large</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="BottomDialogAnim" parent="android:Animation">
+        <item name="@android:windowEnterAnimation">@anim/dialog_enter</item>
+        <item name="@android:windowExitAnimation">@anim/dialog_exit</item>
+    </style>
+
+    <style name="BaseSpinner">
+        <item name="android:background">@color/grey_bg</item>
+        <item name="android:layout_margin">@dimen/spacing_tiny</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">40dp</item>
+    </style>
+
+    <style name="DialogButton" parent="BaseButton">
+        <item name="android:background">@drawable/btn_info_window_shape</item>
+        <item name="android:textSize">@dimen/font_normal</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/button_height_short</item>
+        <item name="android:layout_marginLeft">@dimen/spacing_small</item>
+        <item name="android:layout_marginRight">@dimen/spacing_small</item>
+
+    </style>
+
+
+</resources>
